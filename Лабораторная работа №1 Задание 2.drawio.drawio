@@ -1,0 +1,70 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Страница-1" id="B2wL4Ge5lOOEdR3T6UBi">
+    <mxGraphModel dx="1415" dy="982" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="oaxTycmKDRXQLg8wC0d7-1" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" value="Полльзователь" vertex="1">
+          <mxGeometry height="60" width="30" x="90" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="oaxTycmKDRXQLg8wC0d7-2" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" value="Программа" vertex="1">
+          <mxGeometry height="60" width="30" x="180" y="380" as="geometry" />
+        </mxCell>
+        <mxCell id="oaxTycmKDRXQLg8wC0d7-3" parent="1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;" value="Введите число" vertex="1">
+          <mxGeometry height="80" width="120" x="220" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="oaxTycmKDRXQLg8wC0d7-4" edge="1" parent="1" source="oaxTycmKDRXQLg8wC0d7-1" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.3333333333333333;exitDx=0;exitDy=0;exitPerimeter=0;" target="oaxTycmKDRXQLg8wC0d7-3" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="390" y="360" as="sourcePoint" />
+            <mxPoint x="440" y="310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oaxTycmKDRXQLg8wC0d7-7" parent="1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;" value="Получает значение" vertex="1">
+          <mxGeometry height="80" width="120" x="280" y="220" as="geometry" />
+        </mxCell>
+        <mxCell id="oaxTycmKDRXQLg8wC0d7-8" parent="1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;" value="Удваивает число" vertex="1">
+          <mxGeometry height="80" width="120" x="280" y="360" as="geometry" />
+        </mxCell>
+        <mxCell id="oaxTycmKDRXQLg8wC0d7-16" edge="1" parent="1" source="oaxTycmKDRXQLg8wC0d7-9" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;dashed=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="oaxTycmKDRXQLg8wC0d7-17">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="560" y="470" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oaxTycmKDRXQLg8wC0d7-20" connectable="0" parent="oaxTycmKDRXQLg8wC0d7-16" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];rotation=-30;" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;" vertex="1">
+          <mxGeometry relative="1" x="-0.0801" y="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oaxTycmKDRXQLg8wC0d7-9" parent="1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;" value="Выводит сообщение" vertex="1">
+          <mxGeometry height="80" width="120" x="280" y="500" as="geometry" />
+        </mxCell>
+        <mxCell id="oaxTycmKDRXQLg8wC0d7-11" edge="1" parent="1" source="oaxTycmKDRXQLg8wC0d7-7" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.3333333333333333;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=none;endFill=0;" target="oaxTycmKDRXQLg8wC0d7-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oaxTycmKDRXQLg8wC0d7-12" edge="1" parent="1" source="oaxTycmKDRXQLg8wC0d7-8" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.3333333333333333;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=none;endFill=0;" target="oaxTycmKDRXQLg8wC0d7-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oaxTycmKDRXQLg8wC0d7-13" edge="1" parent="1" source="oaxTycmKDRXQLg8wC0d7-9" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.3333333333333333;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=none;endFill=0;" target="oaxTycmKDRXQLg8wC0d7-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oaxTycmKDRXQLg8wC0d7-17" parent="1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;" value="Выводит результат о сообщении" vertex="1">
+          <mxGeometry height="80" width="120" x="560" y="400" as="geometry" />
+        </mxCell>
+        <mxCell id="oaxTycmKDRXQLg8wC0d7-18" parent="1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;" value="Выводит сообщение о нуле" vertex="1">
+          <mxGeometry height="80" width="120" x="560" y="600" as="geometry" />
+        </mxCell>
+        <mxCell id="oaxTycmKDRXQLg8wC0d7-19" edge="1" parent="1" source="oaxTycmKDRXQLg8wC0d7-9" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;dashed=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="oaxTycmKDRXQLg8wC0d7-18">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="480" y="580" as="sourcePoint" />
+            <mxPoint x="640" y="480" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oaxTycmKDRXQLg8wC0d7-21" connectable="0" parent="oaxTycmKDRXQLg8wC0d7-19" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];rotation=30;" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;" vertex="1">
+          <mxGeometry relative="1" x="-0.0111" y="2" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
